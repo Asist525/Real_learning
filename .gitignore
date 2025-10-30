@@ -1,0 +1,40 @@
+# --- 파이썬 기본 ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# --- 가상환경 ---
+venv/
+.venv/
+.venv312/
+.env/
+.env*/
+
+# --- VSCode 등 편집기 ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS 잡파일 ---
+.DS_Store
+Thumbs.db
+
+# --- 우리가 이 과제에서 생기는 것들 ---
+
+# 렌더링/결과 이미지
+runs/
+outputs/
+screenshots/
+
+# 파워셸/터미널에서 생길 수 있는 임시파일
+*.tmp
+*.bak
+
+# 주피터(혹시 쓸 때)
+.ipynb_checkpoints/
